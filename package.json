@@ -1,0 +1,7 @@
+{
+  "name": "msexcel",
+  "version": "0.0.1",
+  "dependencies": {
+    "msexcel-builder": "0.0.2"
+  }
+}
