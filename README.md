@@ -2,6 +2,8 @@
 
 2. cd msexcel
 
-3. node server.js
+3. npm install
 
-4. Look at the generated sample.xlsx
+4. node server.js
+
+5. Look at the generated sample.xlsx
