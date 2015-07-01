@@ -1,7 +1,7 @@
 var excelbuilder = require('msexcel-builder');
 
 // Create a new workbook file in current working-path
-var workbook = excelbuilder.createWorkbook('./', 'sample.xlsx')
+var workbook = excelbuilder.createWorkbook('./', 'sample.xlsx');
 
 // Create a new worksheet with 14 columns and 12 rows
 var sheet1 = workbook.createSheet('sheet1', 14, 50);
@@ -473,6 +473,8 @@ sheet1.set(1, 50, '56');
 sheet1.set(2, 50, '');
 sheet1.set(5, 50, 'qcid56');
 sheet1.set(6, 50, '');
+
+
 
 
 
